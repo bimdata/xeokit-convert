@@ -73,7 +73,6 @@
     "rollup-plugin-node-resolve": "^5.2.0"
   },
   "files": [
-    "/dist",
-    "/convert2xkt.js"
+    "src"
   ]
 }
