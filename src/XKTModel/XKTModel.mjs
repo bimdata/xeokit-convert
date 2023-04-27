@@ -3,10 +3,10 @@ import {geometryCompression} from "./lib/geometryCompression.mjs";
 import {buildEdgeIndices} from "./lib/buildEdgeIndices.mjs";
 import {isTriangleMeshSolid} from "./lib/isTriangleMeshSolid.mjs";
 
-import {XKTMesh} from './XKTMesh.js';
-import {XKTGeometry} from './XKTGeometry.js';
-import {XKTEntity} from './XKTEntity.js';
-import {XKTTile} from './XKTTile.js';
+import {XKTMesh} from './XKTMesh.mjs';
+import {XKTGeometry} from './XKTGeometry.mjs';
+import {XKTEntity} from './XKTEntity.mjs';
+import {XKTTile} from './XKTTile.mjs';
 import {KDNode} from "./KDNode.mjs";
 import {XKTMetaObject} from "./XKTMetaObject.mjs";
 import {XKTPropertySet} from "./XKTPropertySet.mjs";
