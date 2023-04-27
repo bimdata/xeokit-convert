@@ -1,4 +1,4 @@
-import {math} from "./math.js";
+import {math} from "./math.mjs";
 
 /**
  * Converts surface-perpendicular face normals to vertex normals. Assumes that the mesh contains disjoint triangles

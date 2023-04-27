@@ -1,6 +1,6 @@
-import {math} from "../lib/math.js";
-import {geometryCompression} from "./lib/geometryCompression.js";
-import {buildEdgeIndices} from "./lib/buildEdgeIndices.js";
+import {math} from "../lib/math.mjs";
+import {geometryCompression} from "./lib/geometryCompression.mjs";
+import {buildEdgeIndices} from "./lib/buildEdgeIndices.mjs";
 
 const tempVec4a = math.vec4([0, 0, 0, 1]);
 const tempVec4b = math.vec4([0, 0, 0, 1]);

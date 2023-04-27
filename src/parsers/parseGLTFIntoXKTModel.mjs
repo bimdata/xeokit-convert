@@ -1,5 +1,5 @@
-import {utils} from "../XKTModel/lib/utils.js";
-import {math} from "../lib/math.js";
+import {utils} from "../XKTModel/lib/utils.mjs";
+import {math} from "../lib/math.mjs";
 
 const atob2 = (typeof atob !== 'undefined') ? atob : a => Buffer.from(a, 'base64').toString('binary');
 

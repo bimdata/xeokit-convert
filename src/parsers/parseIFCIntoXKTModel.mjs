@@ -1,4 +1,4 @@
-import * as WebIFC from "web-ifc/web-ifc-api.js";
+import * as WebIFC from "web-ifc/web-ifc-api.mjs";
 
 /**
  * @desc Parses IFC STEP file data into an {@link XKTModel}.

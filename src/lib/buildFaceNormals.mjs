@@ -1,4 +1,4 @@
-import {math} from "./math.js";
+import {math} from "./math.mjs";
 
 /**
  * Builds face-aligned vertex normal vectors from positions and indices.

@@ -1,5 +1,5 @@
-import * as p from "./lib/pako.es.js";
-import {XKT_INFO} from "../XKT_INFO.js";
+import * as p from "./lib/pako.es.mjs";
+import {XKT_INFO} from "../XKT_INFO.mjs";
 
 let pako = p;
 if (!pako.inflate) {  // See https://github.com/nodeca/pako/issues/97

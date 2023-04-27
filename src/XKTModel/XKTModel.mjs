@@ -1,17 +1,17 @@
-import {math} from "../lib/math.js";
-import {geometryCompression} from "./lib/geometryCompression.js";
-import {buildEdgeIndices} from "./lib/buildEdgeIndices.js";
-import {isTriangleMeshSolid} from "./lib/isTriangleMeshSolid.js";
+import {math} from "../lib/math.mjs";
+import {geometryCompression} from "./lib/geometryCompression.mjs";
+import {buildEdgeIndices} from "./lib/buildEdgeIndices.mjs";
+import {isTriangleMeshSolid} from "./lib/isTriangleMeshSolid.mjs";
 
 import {XKTMesh} from './XKTMesh.js';
 import {XKTGeometry} from './XKTGeometry.js';
 import {XKTEntity} from './XKTEntity.js';
 import {XKTTile} from './XKTTile.js';
-import {KDNode} from "./KDNode.js";
-import {XKTMetaObject} from "./XKTMetaObject.js";
-import {XKTPropertySet} from "./XKTPropertySet.js";
-import {mergeVertices} from "../lib/mergeVertices.js";
-import {XKT_INFO} from "../XKT_INFO.js";
+import {KDNode} from "./KDNode.mjs";
+import {XKTMetaObject} from "./XKTMetaObject.mjs";
+import {XKTPropertySet} from "./XKTPropertySet.mjs";
+import {mergeVertices} from "../lib/mergeVertices.mjs";
+import {XKT_INFO} from "../XKT_INFO.mjs";
 
 const tempVec4a = math.vec4([0, 0, 0, 1]);
 const tempVec4b = math.vec4([0, 0, 0, 1]);

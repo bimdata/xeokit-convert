@@ -1,5 +1,5 @@
-import {faceToVertexNormals} from "../lib/faceToVertexNormals.js";
-import {math} from "../lib/math.js";
+import {faceToVertexNormals} from "../lib/faceToVertexNormals.mjs";
+import {math} from "../lib/math.mjs";
 
 /**
  * @desc Parses STL file data into an {@link XKTModel}.

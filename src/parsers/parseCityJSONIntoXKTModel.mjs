@@ -1,5 +1,5 @@
 import {earcut} from './../lib/earcut';
-import {math} from "./../lib/math.js";
+import {math} from "./../lib/math.mjs";
 
 const tempVec2a = math.vec2();
 const tempVec3a = math.vec3();

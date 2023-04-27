@@ -1,5 +1,5 @@
-import {ZIPArchive} from "./ZIPArchive.js";
-import {math} from "../lib/math.js";
+import {ZIPArchive} from "./ZIPArchive.mjs";
+import {math} from "../lib/math.mjs";
 
 const supportedSchemas = ["4.2"];
 

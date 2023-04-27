@@ -1,4 +1,4 @@
-import {math} from "./math.js";
+import {math} from "./math.mjs";
 
 /**
  * Builds vertex normal vectors from positions and indices.

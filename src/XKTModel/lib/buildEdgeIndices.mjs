@@ -1,4 +1,4 @@
-import {math} from "../../lib/math.js";
+import {math} from "../../lib/math.mjs";
 
 /**
  * @private

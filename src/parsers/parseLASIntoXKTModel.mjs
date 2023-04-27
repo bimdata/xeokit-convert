@@ -1,6 +1,6 @@
 import {parse} from '@loaders.gl/core';
 import {LASLoader} from '@loaders.gl/las';
-import {math} from "../lib/math.js";
+import {math} from "../lib/math.mjs";
 
 
 /**
